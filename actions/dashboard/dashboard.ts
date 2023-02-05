@@ -1,4 +1,4 @@
-import api from "services/api";
+import api from "core-module/services/api";
 export const GET_PRODUCT_ORDERS_BEGIN = "GET_PRODUCT_ORDERS_BEGIN";
 export const GET_PRODUCT_ORDERS_SUCCESS = "GET_PRODUCT_ORDERS_SUCCESS";
 export const GET_PRODUCT_ORDERS_FAILED = "GET_PRODUCT_ORDERS_FAILED";

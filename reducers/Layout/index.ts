@@ -1,6 +1,6 @@
-import { NavbarIState } from "models";
+import { NavbarIState } from "core-module/models";
 import produce from "immer";
-import { layout } from "actions";
+import { layout } from "core-module/actions";
 import { handleQuantity } from "core-module/utils/utils";
 
 const initialState: NavbarIState = {

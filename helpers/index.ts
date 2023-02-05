@@ -1,5 +1,5 @@
 import { ProductExample } from "core-module/utils/constants/images";
-import { ENVIRONMENT } from "enums";
+import { ENVIRONMENT } from "core-module/enums";
 import properties from "core-module/properties";
 
 export const imageUrl = (images: Array<any>) => {

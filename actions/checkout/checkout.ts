@@ -1,4 +1,4 @@
-import api from "services/api";
+import api from "core-module/services/api";
 
 export const ORDER_BEGIN = "ORDER_BEGIN";
 export const ORDER_SUCCESS = "ORDER_SUCCESS";

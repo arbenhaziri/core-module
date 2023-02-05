@@ -1,4 +1,4 @@
-import api from "services/api";
+import api from "core-module/services/api";
 import { menuItemsMapped } from "core-module/utils/utils";
 
 /***************

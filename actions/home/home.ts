@@ -1,5 +1,5 @@
-import api from "services/api";
-import StorageService from "services/storage.service";
+import api from "core-module/services/api";
+import StorageService from "core-module/services/storage.service";
 
 /***************
  * ACTION TYPES

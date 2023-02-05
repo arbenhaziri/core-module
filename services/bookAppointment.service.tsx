@@ -1,11 +1,11 @@
-import StorageService from "services/storage.service";
+import StorageService from "core-module/services/storage.service";
 import dayjs from "dayjs";
-import api from "services/api";
+import api from "core-module/services/api";
 import isBetween from "dayjs/plugin/isBetween";
 import { faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { store } from "reducers/store";
-import { setBookAppointmentProps } from "actions/layout/layout";
+import { store } from "core-module/reducers/store";
+import { setBookAppointmentProps } from "core-module/actions/layout/layout";
 
 dayjs.extend(isBetween);
 

@@ -1,5 +1,5 @@
-import { HomePageIState } from "models";
-import { home } from "actions";
+import { HomePageIState } from "core-module/models";
+import { home } from "core-module/actions";
 import Fuse from "fuse.js";
 
 const initialState: HomePageIState = {

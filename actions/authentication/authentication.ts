@@ -1,7 +1,7 @@
 import { SignupResendIState } from "./../../models/Authentication";
-import { LoginParams } from "models";
-import api from "services/api";
-import StorageService from "services/storage.service";
+import { LoginParams } from "core-module/models";
+import api from "core-module/services/api";
+import StorageService from "core-module/services/storage.service";
 
 export const AUTHORIZE_BEGIN = "AUTHORIZE_BEGIN";
 export const AUTHORIZE_SUCCESS = "AUTHORIZE_SUCCESS";

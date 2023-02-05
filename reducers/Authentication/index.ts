@@ -1,6 +1,6 @@
 import produce from "immer";
 import { AuthenticationIState } from "./../../models/Authentication";
-import { authentication } from "actions";
+import { authentication } from "core-module/actions";
 import { reMapUserProfile } from "core-module/utils/utils";
 
 const initialState: AuthenticationIState = {

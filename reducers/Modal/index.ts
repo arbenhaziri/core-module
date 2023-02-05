@@ -1,6 +1,6 @@
 import produce from "immer";
-import { ModalIState } from "models";
-import { CLOSE_MODAL, HIDE_MODAL_HEADER, OPEN_MODAL } from "actions/home/home";
+import { ModalIState } from "core-module/models";
+import { CLOSE_MODAL, HIDE_MODAL_HEADER, OPEN_MODAL } from "core-module/actions/home/home";
 
 const initialState: ModalIState = {
   openModal: false,
