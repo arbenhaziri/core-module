@@ -1,5 +1,5 @@
 import api from "services/api";
-import { menuItemsMapped } from "utils/utils";
+import { menuItemsMapped } from "core-module/utils/utils";
 
 /***************
  * ACTION TYPES

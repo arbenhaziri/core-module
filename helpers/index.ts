@@ -1,6 +1,6 @@
-import { ProductExample } from "utils/constants/images";
+import { ProductExample } from "core-module/utils/constants/images";
 import { ENVIRONMENT } from "enums";
-import properties from "properties";
+import properties from "core-module/properties";
 
 export const imageUrl = (images: Array<any>) => {
   return images !== undefined ? `https://api.${ENVIRONMENT}.ecocare.center${images[0].url}` : ProductExample;

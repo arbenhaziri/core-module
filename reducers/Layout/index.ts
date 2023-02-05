@@ -1,7 +1,7 @@
 import { NavbarIState } from "models";
 import produce from "immer";
 import { layout } from "actions";
-import { handleQuantity } from "utils/utils";
+import { handleQuantity } from "core-module/utils/utils";
 
 const initialState: NavbarIState = {
   selectedMenu: { parent: "ALL PRODUCTS", child: "" },

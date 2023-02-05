@@ -9,7 +9,7 @@ import {
   SET_ORDER,
 } from "../../actions/dashboard/dashboard";
 import produce from "immer";
-import { filterByProductGroup } from "utils/utils";
+import { filterByProductGroup } from "core-module/utils/utils";
 import Fuse from "fuse.js";
 import shortUUID from "short-uuid";
 
